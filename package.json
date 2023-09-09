@@ -1,12 +1,16 @@
 {
 	"name": "eslint-config-rth",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "The ESLint configurations used by Retinbox Software.",
 	"main": "index.js",
 	"keywords": [
 		"eslint",
 		"eslintconfig"
 	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/rthsoftware/eslint-config-rth.git"
+	},
 	"author": "Fuzhou Retiehe Software Co., Ltd.",
 	"license": "MIT",
 	"peerDependencies": {
