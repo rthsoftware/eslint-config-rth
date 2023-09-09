@@ -11,4 +11,7 @@ module.exports = {
 		project: "./tsconfig.json",
 		sourceType: "module",
 	},
+	rules: {
+		"max-len": "off",
+	},
 };
