@@ -1,0 +1,21 @@
+{
+	"name": "eslint-config-rth",
+	"version": "1.0.0",
+	"description": "The ESLint configurations used by Retinbox Software.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"eslint",
+		"eslintconfig"
+	],
+	"author": "Fuzhou Retiehe Software Co., Ltd.",
+	"license": "MIT",
+	"devDependencies": {
+		"@vue/eslint-config-typescript": "^11.0.3"
+	},
+	"peerDependencies": {
+		"eslint": ">= 8"
+	}
+}
