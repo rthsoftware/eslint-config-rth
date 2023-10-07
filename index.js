@@ -10,6 +10,7 @@ module.exports = {
 	ignorePatterns: [
 		"dist/",
 		"node_modules/",
+		"**/*.d.ts",
 		"**/*.js",
 	],
 	overrides: [],
