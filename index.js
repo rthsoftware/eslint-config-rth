@@ -22,7 +22,6 @@ module.exports = {
 	},
 	plugins: [
 		"@typescript-eslint",
-		"no-relative-import-paths",
 	],
 	rules: {
 		"arrow-body-style": [
@@ -69,13 +68,6 @@ module.exports = {
 			"error",
 			{
 				max: 1,
-			},
-		],
-		"no-relative-import-paths/no-relative-import-paths": [
-			"error",
-			{
-				prefix: "@",
-				rootDir: "./src",
 			},
 		],
 		"object-shorthand": [

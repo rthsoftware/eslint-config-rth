@@ -8,9 +8,17 @@ module.exports = {
 	plugins: [
 		"react",
 		"jsx-a11y",
+		"no-relative-import-paths",
 	],
 	rules: {
 		"jsx-a11y/no-autofocus": "off",
+		"no-relative-import-paths/no-relative-import-paths": [
+			"error",
+			{
+				prefix: "@",
+				rootDir: "./src",
+			},
+		],
 		"react/jsx-closing-bracket-location": "error",
 		"react/react-in-jsx-scope": "off",
 	},
