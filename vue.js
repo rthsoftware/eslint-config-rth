@@ -3,6 +3,7 @@ module.exports = {
 		"./index",
 		"@vue/eslint-config-typescript",
 		"plugin:vue/vue3-essential",
+		"plugin:vuejs-accessibility/recommended",
 	],
 	parser: "vue-eslint-parser",
 	parserOptions: {
@@ -12,6 +13,7 @@ module.exports = {
 		sourceType: "module",
 	},
 	plugins: [
+		"vuejs-accessibility",
 		"no-relative-import-paths",
 	],
 	rules: {
@@ -23,5 +25,6 @@ module.exports = {
 				rootDir: "./src",
 			},
 		],
+		"vuejs-accessibility/label-has-for": "off", // high false positive rate
 	},
 };
