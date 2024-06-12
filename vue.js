@@ -17,7 +17,6 @@ module.exports = {
 		"no-relative-import-paths",
 	],
 	rules: {
-		"max-len": "off",
 		"no-relative-import-paths/no-relative-import-paths": [
 			"error",
 			{

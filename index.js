@@ -6,6 +6,7 @@ module.exports = {
 	extends: [
 		"eslint:recommended",
 		"plugin:@typescript-eslint/recommended-type-checked",
+		"prettier",
 	],
 	ignorePatterns: [
 		"dist/",
@@ -28,42 +29,13 @@ module.exports = {
 			"error",
 			"always",
 		],
-		"arrow-parens": [
-			"error",
-			"always",
-		],
-		"comma-dangle": [
-			"error",
-			"always-multiline",
-		],
-		"curly": [
-			"error",
-			"all",
-		],
 		"default-case": "error",
 		"default-case-last": "error",
-		"eol-last": [
-			"error",
-			"always",
-		],
 		"eqeqeq": [
 			"error",
 			"always",
 		],
-		"indent": [
-			"error",
-			"tab",
-			{
-				SwitchCase: 1,
-			},
-		],
-		"linebreak-style": [
-			"error",
-			"unix",
-		],
-		"max-len": "error",
 		"no-duplicate-imports": "error",
-		"no-mixed-operators": "error",
 		"no-multiple-empty-lines": [
 			"error",
 			{
@@ -76,14 +48,6 @@ module.exports = {
 		],
 		"prefer-arrow-callback": "error",
 		"prefer-const": "error",
-		"quotes": [
-			"error",
-			"double",
-		],
-		"semi": [
-			"error",
-			"always",
-		],
 		"sort-keys": [
 			"error",
 			"asc",

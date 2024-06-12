@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-rth",
-	"version": "1.3.0",
+	"version": "1.4.0",
 	"description": "The ESLint configurations used by Retinbox Software.",
 	"main": "index.js",
 	"keywords": [
@@ -13,12 +13,12 @@
 	},
 	"author": "Fuzhou Retiehe Software Co., Ltd.",
 	"license": "MIT",
-	"peerDependencies": {
-		"@typescript-eslint/eslint-plugin": ">= 6",
-		"@typescript-eslint/parser": ">= 6",
-		"eslint": ">= 8"
-	},
 	"files": [
 		"**/*.js"
-	]
+	],
+	"prettier": "prettier-config-rth",
+	"devDependencies": {
+		"prettier": "^3.3.2",
+		"prettier-config-rth": "^1.0.0"
+	}
 }
