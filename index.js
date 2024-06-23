@@ -25,10 +25,6 @@ module.exports = {
 		"@typescript-eslint",
 	],
 	rules: {
-		"arrow-body-style": [
-			"error",
-			"always",
-		],
 		"default-case": "error",
 		"default-case-last": "error",
 		"eqeqeq": [
