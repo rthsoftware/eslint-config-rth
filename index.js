@@ -38,10 +38,6 @@ module.exports = {
 				max: 1,
 			},
 		],
-		"object-shorthand": [
-			"error",
-			"never",
-		],
 		"prefer-arrow-callback": "error",
 		"prefer-const": "error",
 		"sort-keys": [
