@@ -19,6 +19,7 @@ module.exports = {
 				rootDir: "./src",
 			},
 		],
+		"react/button-has-type": "error",
 		"react/jsx-closing-bracket-location": "error",
 		"react/react-in-jsx-scope": "off",
 	},

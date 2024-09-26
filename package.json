@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-rth",
-	"version": "1.4.2",
+	"version": "1.4.3",
 	"description": "The ESLint configurations used by Retinbox Software.",
 	"main": "index.js",
 	"keywords": [
@@ -18,7 +18,7 @@
 	],
 	"prettier": "prettier-config-rth",
 	"devDependencies": {
-		"prettier": "^3.3.2",
+		"prettier": "^3.3.3",
 		"prettier-config-rth": "^1.0.0"
 	}
 }
