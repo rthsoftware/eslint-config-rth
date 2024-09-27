@@ -24,6 +24,7 @@ module.exports = {
 				rootDir: "./src",
 			},
 		],
+		"vue/html-button-has-type": "error",
 		"vuejs-accessibility/label-has-for": "off", // high false positive rate
 	},
 };
