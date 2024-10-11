@@ -38,6 +38,7 @@ module.exports = {
 				max: 1,
 			},
 		],
+		"no-self-compare": "error",
 		"prefer-arrow-callback": "error",
 		"prefer-const": "error",
 		"sort-keys": [
